@@ -1,0 +1,24 @@
+
+
+.page-card {
+    background-color: white;
+    border: 1px solid black;
+    /*box-shadow: 2px 2px 4px 1px rgba(19, 18, 18, 0.1);*/
+    width: calc(100% - 60px);
+    height: calc(80vh - 60px); /* 60px for top and bottom margin */
+    margin: 30px auto;
+    padding: 10px 20px 20px 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .page-card {
+        max-width: 90%;
+    }
+}
+
+
+.input{
+
+}

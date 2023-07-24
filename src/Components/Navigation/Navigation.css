@@ -1,0 +1,39 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 60px);
+    margin: 30px auto;
+    padding: 10px 20px 20px 20px;
+}
+
+.home-link a {
+    display: flex;
+    align-items: center;
+
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    transition: text-decoration-color 0.3s;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 10px;
+
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    transition: text-decoration-color 0.3s;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}

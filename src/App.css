@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+
+
+body {
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 100px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 70px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 40px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Set font family for all text elements to Helvetica Neue */
+body, h1, h2, h3, h4, h5, h6, p, b, label, button, input, textarea, select {
+  font-family: 'Helvetica Neue', sans-serif;
 }
